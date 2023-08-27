@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+
+}
+/* CSS RULE: Div:selector Declatation block: {color: blue;} - Property and Value.
+/* the margin and padding properties tell us that we want no extra space around the element.
+/* padding adds space around the content inside of an element. so when the padding is increased the entire element gets bigger;*/
+
+header,
+
+footer{
+    width: 100%;
+
+    height: 120px;
+
+    background-color: blue;
+
+    color: white;
+
+}
+
+h1,
+h2
+{
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    
+  }
